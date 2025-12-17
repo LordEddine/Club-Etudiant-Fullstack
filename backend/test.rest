@@ -1,0 +1,43 @@
+get http://localhost:3000/etudiants/
+
+###
+POST http://localhost:3000/etudiants
+content-type: application/json
+
+{
+  "name": "Sonia",
+  "email": "sonia@gmail.com"
+}
+
+###
+PATCH http://localhost:3000/etudiants/123a
+content-type: application/json
+
+{
+  "email": "Edd@example.com"
+}
+
+###
+DELETE http://localhost:3000/etudiants/3
+
+
+###
+POST http://localhost:3000/clubs
+content-type: application/json
+
+{
+  "name": "Abot Club",
+  "description": "A club for Abot enthusiasts",
+  "presidentId":4
+}
+
+
+###
+GET http://localhost:3000/clubs
+
+
+###
+POST http://localhost:3000/clubs/2/join/4
+
+###
+POST http://localhost:3000/clubs/2/leave/4
