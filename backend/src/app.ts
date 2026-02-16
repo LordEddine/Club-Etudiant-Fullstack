@@ -13,6 +13,4 @@ app.use(express.json());
 app.use('/clubs', clubRoutes)
 app.use('/etudiants', studentRoutes); // http:localhost:3000/etudiants/......
 
-app.listen(3000, () => {
-    console.log('Server is running on port 3000');
-});
+export default app;
