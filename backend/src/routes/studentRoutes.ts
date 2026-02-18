@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { createStudent,deleteStudent, getAllStudents, modifierStudent,getStudentById} from '../controllers/studentController'
-import { validateId } from "../middleware/handleError";
+import { createStudent,deleteStudent, getAllStudents, modifierStudent,getStudentById} from '../controllers/studentController.js'
+import { validateId } from "../middleware/handleError.js";
 
 const router = Router();
 

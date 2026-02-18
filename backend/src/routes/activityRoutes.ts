@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { createActivity } from "../controllers/activityController";
+import { createActivity } from "../controllers/activityController.js";
 
 const router = Router();
 // localhost:3000/activities/clubs/1/activities
