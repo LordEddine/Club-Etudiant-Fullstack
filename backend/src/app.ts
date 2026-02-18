@@ -1,8 +1,8 @@
 import express from 'express';
-import studentRoutes from './routes/studentRoutes.js'
-import clubRoutes from './routes/clubRoutes.js';
+import studentRoutes from './routes/studentRoutes'
+import clubRoutes from './routes/clubRoutes';
 import 'dotenv/config';
-import prisma from './prisma/prisma.js';
+import prisma from './prisma/prisma';
 import cors from 'cors';
 
 const app = express();
