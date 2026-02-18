@@ -1,6 +1,6 @@
 import express from 'express';
-import studentRoutes from './routes/studentRoutes'
-import clubRoutes from './routes/clubRoutes';
+import studentRoutes from './routes/studentRoutes.js'
+import clubRoutes from './routes/clubRoutes.js';
 import 'dotenv/config';
 import prisma from './prisma/prisma.js';
 import cors from 'cors';
